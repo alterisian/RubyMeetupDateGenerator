@@ -1,4 +1,4 @@
-require "../generate.rb"
+require_relative "../generate.rb"
 
 RSpec.describe Generate do
   describe "#dates" do
