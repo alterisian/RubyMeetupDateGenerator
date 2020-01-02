@@ -1,0 +1,59 @@
+README
+
+The 2020 challenge....should you accept...
+
+We are a ruby community, so lets try a simple ruby exercise together.
+
+Let's generate all the dates of the meetup for the year.
+
+So, please write a line of code that moves the solution forward. And then tag someone else in the community. 
+
+I've tried to set this up on an online editor, so no-one has to install anything :)
+
+Here is your specification:
+===========================
+
+* The meetup is on the 3rd Thursday of the month. 
+
+* It should output 12 dates, one per month.
+
+* The first date should be Thursday 16th January.
+
+* There should be a ruby class called Generate. 
+* It should have a method called 'dates' which can be used to start the exercise and generate the output.
+
+* The end solution should have tests. Possibly in rspec. 
+It doesn't necessarily have to be you who writes a test ;)
+
+* The project deadline is Thursday 16th January. 
+We can meetup and discuss the solutions & collaborate on the results.
+
+We have the whatsapp group to post questions to.
+Happy collaborating :)
+
+Head on over to the online editor at: 
+https://repl.it/join/kislhuzg-alterisian
+
+======================================================
+
+References: 
+
+REPL editor: https://repl.it/@alterisian/Ruby-Meetup-Generator
+Git Repo: git clone 
+
+Learning ruby:	https://repl.it/talk/learn/Learn-the-Basics-of-Ruby-Interactive-Program-for-Anyone-New-to-Ruby/7825
+Ruby: 					http://ruby-lang.org
+
+Date class: 		https://ruby-doc.org/stdlib-2.7.0/libdoc/date/rdoc/Date.html
+DateTime class: https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/DateTime.html
+
+rspec introduction videos: https://rspec.info/
+rspec beginner tutorial:	 https://www.youtube.com/watch?v=LdutLs5-ObI
+rspec: 										 https://relishapp.com/rspec/docs/gettingstarted
+using rspec with rails:    https://guides.railsgirls.com/testing-rspec
+rspec cheat sheet:				 https://www.rubypigeon.com/posts/rspec-expectations-cheat-sheet/
+
+Anything else useful? Please feel free to edit this README file.
+
+Ian
+Add yourself to the next meetup on Thursday January 16th: https://andalucia.onruby.eu/events/malaga-january-meetup-582
