@@ -6,24 +6,27 @@ We are a ruby community, so lets try a simple ruby exercise together.
 
 Let's generate all the dates of the meetup for the year.
 
-So, please write a line of code that moves the solution forward. And then tag someone else in the community. 
+So, please write a line of code that moves the solution forward. AND THEN TAG SOMEONE ELSE IN THE COMMUNITY IN THE WHATSAPP GROUP. 
 
 I've tried to set this up on an online editor, so no-one has to install anything :)
 
 Here is your specification:
 ===========================
 
-* The meetup is on the 3rd Thursday of the month. 
+1. The meetup is on the 3rd Thursday of the month. 
 
-* It should output 12 dates, one per month.
+2. It should output 12 dates, one per month.
 
-* The first date should be Thursday 16th January.
+3. The first date should be Thursday 16th January.
 
-* There should be a ruby class called Generate. 
-* It should have a method called 'dates' which can be used to start the exercise and generate the output.
+4. There should be a ruby class called Generate. 
 
-* The end solution should have tests. Possibly in rspec. 
+5. It should have a method called 'dates' which can be used to start the exercise and generate the output.
+
+6. The end solution should have tests. Possibly in rspec. 
 It doesn't necessarily have to be you who writes a test ;)
+
+===========================
 
 * The project deadline is Thursday 16th January. 
 We can meetup and discuss the solutions & collaborate on the results.
@@ -41,7 +44,7 @@ https://repl.it/join/kislhuzg-alterisian
 References: 
 
 REPL editor: https://repl.it/@alterisian/Ruby-Meetup-Generator
-Git Repo: git clone 
+Git Repo: https://github.com/alterisian/RubyMeetupDateGenerator
 
 Learning ruby:	https://repl.it/talk/learn/Learn-the-Basics-of-Ruby-Interactive-Program-for-Anyone-New-to-Ruby/7825
 Ruby: 					http://ruby-lang.org
