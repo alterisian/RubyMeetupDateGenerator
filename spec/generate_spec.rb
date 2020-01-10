@@ -4,9 +4,9 @@ RSpec.describe Generate do
   describe "#dates" do
     let(:generate) { Generate.new }
 
-    it "returns an array of Time objects" do
+    it "returns an array of Date objects" do
       meetup_dates = generate.dates
-      expect(meetup_dates).to be_any(Time)
+      expect(meetup_dates).to be_all(Date)
     end
 
     it "returns a list of Thursdays" do
