@@ -13,15 +13,15 @@ class Generate
     selected[1..12].flatten
   end
 
-  def formatted_output(date)
-    puts date
+  def dates
+    generate_dates(2020,3,4)
   end
 
-  def dates
-    our_dates = generate_dates(2020,3,4)
+  def formatted_output(date)
+    date.to_s
+  end
 
-    our_dates.each { |date| formatted_output date }
-
-    our_dates
+  def print_dates
+    puts dates
   end
 end
