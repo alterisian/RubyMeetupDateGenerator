@@ -1,5 +1,9 @@
 require 'date'
 class Generate
+  YEAR = 2020
+  THURSDAY = 4
+  MONTHS_IN_YEAR = 12
+
   def days_range(year,month)
     Date.new(year,month,1)..Date.new(year,month,-1)
   end
@@ -7,14 +11,14 @@ class Generate
   def generate_dates(year,ordinal,weekday)
     selected = Array.new()
     selected[0] = Array.new
-    1.upto(12).each do |month|
+    1.upto(MONTHS_IN_YEAR).each do |month|
       selected[month] = Array((days_range(year,month)).group_by(&:wday)[weekday][ordinal-1])
     end
-    selected[1..12].flatten
+    selected[1..MONTHS_IN_YEAR].flatten
   end
 
   def dates
-    generate_dates(2020,3,4)
+    generate_dates(YEAR,3,THURSDAY)
   end
 
   def formatted_output(date)

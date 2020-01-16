@@ -4,9 +4,10 @@ RSpec.describe Generate do
   let(:generate) { Generate.new }
 
   describe "#dates" do
-    it "returns an array of Date objects" do
+    it "returns an array of 12 Date objects" do
       meetup_dates = generate.dates
       expect(meetup_dates).to be_all(Date)
+      expect(meetup_dates.length).to be(Generate::MONTHS_IN_YEAR)
     end
 
     it "returns a list of Thursdays" do
@@ -30,9 +31,12 @@ RSpec.describe Generate do
   end
 
   describe "#print_dates" do
-    let(:generate) { Generate.new }
+    #let(:generate) { Generate.new }
 
     it "displays a list of dates in a string formatted Thursday, day, month, year"
-      expect(generate.print_dates).to be_a(String)
+      #expect(generate).to not_be_nil
+      #generate = Generate.new
+      #expect(generate.dates).to be_a(String)
+      #expect(generate.dates).to be_a(String)
   end
 end
