@@ -31,12 +31,15 @@ RSpec.describe Generate do
   end
 
   describe "#print_dates" do
-    #let(:generate) { Generate.new }
+    it "displays a list of dates in a string formatted Thursday, day, month, year" do
+        printed_dates = generate.print_dates
+        expect(printed_dates).to be_a(String)
+        expect(printed_dates).to include("Thursday")
+    end
 
-    it "displays a list of dates in a string formatted Thursday, day, month, year"
-      #expect(generate).to not_be_nil
-      #generate = Generate.new
-      #expect(generate.dates).to be_a(String)
-      #expect(generate.dates).to be_a(String)
-  end
-end
+    it "displays day of the week in Spanish, when that option is given" do
+        printed_dates = generate.print_dates("ES")
+        expect(printed_dates).to include("Jueves")
+    end
+  end #print_dates
+end #Rspec.describe
