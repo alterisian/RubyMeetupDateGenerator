@@ -30,6 +30,9 @@ RSpec.describe Generate do
   end
 
   describe "#print_dates" do
-    it "displays a list of dates in STDOUT"
+    let(:generate) { Generate.new }
+
+    it "displays a list of dates in a string formatted Thursday, day, month, year"
+      expect(generate.print_dates).to be_a(String)
   end
 end

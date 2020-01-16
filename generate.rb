@@ -18,7 +18,7 @@ class Generate
   end
 
   def formatted_output(date)
-    date.to_s
+    date.strftime("%A %_d %B, %Y")
   end
 
   def print_dates
