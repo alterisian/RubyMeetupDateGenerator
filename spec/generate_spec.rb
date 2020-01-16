@@ -30,6 +30,6 @@ RSpec.describe Generate do
   end
 
   describe "#print_dates" do
-    it "displays a list of dates in strings"
+    it "displays a list of dates in STDOUT"
   end
 end
