@@ -26,5 +26,9 @@ RSpec.describe Generate do
       expect(first_meetup_2020).to eq(Date.new(2020,1,16))
     end
 
+    it "displays a list of dates in strings" do
+      @pending # "inspect STDOUT"
+    end
+
   end
 end
